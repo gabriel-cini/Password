@@ -22,6 +22,6 @@ while not verif_motdepasse(mdp):
     print("Erreur: mot de passe ne répond pas aux exigences de sécurité.")
     mdp = input("Choisit un mot de passe ")
 
-print("Mote de passe valider.")
+print("Mot de passe valider.")
 mdp_crypter = motdepasse_crypter(mdp)
 print("Mot de passe crypter", mdp_crypter)
